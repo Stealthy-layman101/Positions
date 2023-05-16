@@ -1,0 +1,59 @@
+body{
+    min-height: 200vh;
+}
+
+.outer-container{
+    border: 2px solid black;
+    width: 75vw;
+    height: 80vh;
+    margin: 60px auto;
+    position: relative; 
+}
+
+p{
+    color: white;
+    font-size: 1.5rem;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+}
+
+.inner-container{
+    border: 2px solid #00f;
+    width: 40vw;
+    height: 50vh;
+    margin: 200px auto;
+}
+
+.absolute{
+    background-color: blue;
+    position: absolute;
+    top: 300px;
+ left: 300px;
+ z-index: 1;
+    /* left: -1000px;  */     
+}
+
+.relative{
+    background-color: red;
+    position: relative;
+    left: 100px;
+}
+
+.fixed{
+    background-color: green;
+    position: fixed; /* position does not change and it is out of flow of the page*/
+    top: 100px;
+    left: 700px;
+}
+
+.sticky{
+    background-color: pink;
+    position: sticky;
+    top: 200px;
+    left: 200px;
+    right: 300px;
+    bottom: 100px;
+}
